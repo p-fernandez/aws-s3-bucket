@@ -1,0 +1,5 @@
+coverage
+node_modules
+server/config/config.json
+*.swp
+yarn-error.log

@@ -1,0 +1,9 @@
+{
+  "env": "example",
+  "aws": {
+    "accessKeyId": "<Access Key Here>",
+    "bucketName": "<Bucket Name Here>",
+    "region": "<Region here>",
+    "secretAccessKey": "<Secret Access Key Here>"
+  }
+}

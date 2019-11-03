@@ -1,0 +1,43 @@
+{
+  "name": "aws-s3-bucket",
+  "version": "1.0.0",
+  "description": "Tool for AWS S3 Bucket",
+  "author": "Pablo Fernández <pablo.fernandez.otero@gmail.com>",
+  "license": "MIT",
+  "main": "server/index.js",
+  "engineStrict": true,
+  "engines": {
+    "node": "12.13.0"
+  },
+  "scripts": {
+    "debug": "node --inspect-brk server",
+    "docker:build": "docker build -t pfernandez/aws-s3-bucket .",
+    "docker:run": "docker run -p 49160:8080 -d pfernandez/aws-s3-bucket",
+    "start": "node server",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "@hapi/joi": "16.1.7",
+    "aws-sdk": "2.562.0",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "express-sanitizer": "1.0.5",
+    "helmet": "3.21.2",
+    "nconf": "0.10.0",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "6.6.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "jest": "24.9.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "config",
+      "postman"
+    ],
+    "verbose": true
+  }
+}

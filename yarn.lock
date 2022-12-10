@@ -1489,7 +1489,7 @@ expect@^24.9.0:
     jest-message-util "^24.9.0"
     jest-regex-util "^24.9.0"
 
-express-sanitizer@^1.0.5:
+express-sanitizer@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/express-sanitizer/-/express-sanitizer-1.0.5.tgz#1622e250dbc8ac7f0986fcbcb0be13627d164047"
   integrity sha512-48/Tf1DZ7JklRVTcXQLHAxhq4GNJTuHq2jjIYhyTmu0Bw+X06YPDD/e/tdn1QLYk706xw4N8JFxtjslRrDGb8g==
@@ -3655,9 +3655,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 querystring@0.2.0:
   version "0.2.0"
